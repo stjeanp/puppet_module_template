@@ -12,11 +12,15 @@
 
 ##Overview
 
-This is a stub that can be used to create a Puppet module. It includes basic support for rvm/bundler, as well as rspec, lint, and syntax tests.
+This is a stub that can be used to create a Puppet module. It includes basic support for building and testing using an rvm environment, which includes CI tools such as Jenkins or Travis. The rakefile includes support for rspec, lint, and syntax tests. It also includes the files needed to release the module to the Puppet Forge.
+
+##Setup
+
+While the files are in place, they are either in an unconfigured state or have dummy data in them. They will need to be edited to make them actually usable. Instructions are included below.
 
 ###.fixtures.yml
 
-The .fixtures.yml file is a helper file used by the puppetlabs\_spec\_helper gem to make it easier to tell rspec where to find the module, as well as any modules from the forge or git repos. This is a part of the [rspec test framework](#rspec-tests) discussed below. Full documentation is at https://github.com/puppetlabs/puppetlabs\_spec\_helper#using-fixtures
+The .fixtures.yml file is a helper file used by the puppetlabs\_spec\_helper gem to make it easier to tell rspec where to find the module, as well as any modules from the forge or git repos. This is a part of the [rspec test framework](#rspec-tests) discussed below. Replace *module\_name* with your module's name and add any module dependencies. Full documentation is at https://github.com/puppetlabs/puppetlabs\_spec\_helper#using-fixtures
 
 ###.gitignore
 
