@@ -20,7 +20,7 @@ While the files are in place, they are either in an unconfigured state or have d
 
 ###.fixtures.yml
 
-The .fixtures.yml file is a helper file used by the puppetlabs\_spec\_helper gem to make it easier to tell rspec where to find the module, as well as any modules from the forge or git repos. This is a part of the [rspec test framework](#rspec-tests) discussed below. Replace *module\_name* with your module's name and add any module dependencies. Full documentation is at https://github.com/puppetlabs/puppetlabs\_spec\_helper#using-fixtures
+The .fixtures.yml file is a helper file used by the puppetlabs\_spec\_helper gem to make it easier to tell rspec where to find the module, as well as any modules from the forge or git repos. This is a part of the [rspec test framework](#rspec-tests) discussed below. Replace *module\_name* with your module's name and add any module dependencies. Full documentation is at https://github.com/puppetlabs/puppetlabs_spec_helper#using-fixtures
 
 ###.gitignore
 
@@ -32,7 +32,7 @@ The Gemfile is used to tell bundler which gems the module need to have installed
 
 ###metadata.json
 
-The metadata.json file is used by the Puppet Forge to generate the module's page when it is published. Edit the file, replace the *Changeme* items with your own information, set the version number, update the dependencies, supported operating systems and versions, and requirements to suit your environment. Full documentation for the metadata.json file is found at https://docs.puppetlabs.com/puppet/latest/reference/modules\_publishing.html#write-a-metadatajson-file
+The metadata.json file is used by the Puppet Forge to generate the module's page when it is published. Edit the file, replace the *Changeme* items with your own information, set the version number, update the dependencies, supported operating systems and versions, and requirements to suit your environment. Full documentation for the metadata.json file is found at https://docs.puppetlabs.com/puppet/latest/reference/modules_publishing.html#write-a-metadatajson-file
 
 ###Rakefile
 
@@ -40,7 +40,7 @@ The Rakefile is ready to use as is. To run all tests, including syntax validatio
 
 ##Manifests
 
-The "manifests" directory is where you place your Puppet classes, following the best practices and instructions at https://docs.puppetlabs.com/pe/latest/quick\_writing\_nix.html
+The "manifests" directory is where you place your Puppet classes, following the best practices and instructions at https://docs.puppetlabs.com/pe/latest/quick_writing_nix.html
 
 ##Rspec Tests
 
