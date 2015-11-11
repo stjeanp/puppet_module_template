@@ -36,7 +36,7 @@ The metadata.json file is used by the Puppet Forge to generate the module's page
 
 ###Rakefile
 
-The Rakefile is ready to use as is. To run all tests, including syntax validation, linting, and rspec tests, just run "rake test".
+The Rakefile is ready to use as is. To run all tests, including syntax validation, linting, and rspec tests, just run "rake test". If you want to include syntax checking of hiera data, uncomment the relevant line and update the paths as needed.
 
 ##Manifests
 
